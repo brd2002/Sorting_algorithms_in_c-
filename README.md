@@ -1,4 +1,4 @@
-# Sorting_algorithms_in_c-
+# Sorting_algorithms_in_c++
 sortingAlgorithms
                           SORTaLGORITHMS
                           1. Selection Sort
