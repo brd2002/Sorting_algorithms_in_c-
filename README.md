@@ -96,10 +96,12 @@ void swap(int *xp , int *yp)
 }
 void recursiveSort(int arr[] , int n )
 {
-int i;
-for(i = 0 ;i<n ; i++)
+if(n==0)
+return ;
+for(int i = 0 ;i<n ; i++)
     if(arr[i]>arr[i+1])
     swap(&arr[i],&arr[i+1]);
+    recursiveSort(arr, n-1);
 }
 void printarray(int arr[] , int n)
 {
